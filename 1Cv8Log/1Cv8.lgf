@@ -7,4 +7,9 @@ dc6a1f09-d623-4498-9cf5-6321339b33e7
 {4,"_$Session$_.Authentication",1},
 {13,1,1},
 {4,"_$Session$_.Start",2},
-{4,"_$Session$_.Finish",3}
+{4,"_$Session$_.Finish",3},
+{4,"_$InfoBase$_.ConfigUpdate",4},
+{4,"_$InfoBase$_.DBConfigUpdateStart",5},
+{4,"_$InfoBase$_.DBConfigUpdate",6},
+{4,"_$Access$_.Access",7},
+{4,"_$InfoBase$_.ExclusiveModeChange",8}
