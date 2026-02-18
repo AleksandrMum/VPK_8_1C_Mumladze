@@ -12,4 +12,10 @@ dc6a1f09-d623-4498-9cf5-6321339b33e7
 {4,"_$InfoBase$_.DBConfigUpdateStart",5},
 {4,"_$InfoBase$_.DBConfigUpdate",6},
 {4,"_$Access$_.Access",7},
-{4,"_$InfoBase$_.ExclusiveModeChange",8}
+{4,"_$InfoBase$_.ExclusiveModeChange",8},
+{4,"_$InfoBase$_.PredefinedDataUpdate",9},
+{5,0d00b8ec-0c2d-4d02-8b92-13e9f3c173ac,"",1},
+{5,c9b2174a-ffc4-4a11-af62-da7dc8a490bc,"",2},
+{5,dace6345-3f9c-4f8d-a98d-770de24af0d9,"",3},
+{5,7a46d0e0-2e46-4211-9b17-110ab0866b07,"",4},
+{5,6b081d9d-5e54-499d-a92f-3b38bc01b7d2,"",5}
