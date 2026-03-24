@@ -37,4 +37,6 @@ dc6a1f09-d623-4498-9cf5-6321339b33e7
 {4,"_$Data$_.Post",15},
 {5,d05c798f-50eb-40fb-82aa-8db8ac49c6c8,"Документ.ОказаниеУслуг",8},
 {5,27e683d5-3c05-4538-a967-0ea37c542dac,"РегистрСведений.ЦеныНоменклатуры",9},
-{4,"_$PerformError$_",16}
+{4,"_$PerformError$_",16},
+{4,"_$Session$_.ExternalDataProcessorConnectError",17},
+{4,"_$Session$_.ExternalDataProcessorConnect",18}
