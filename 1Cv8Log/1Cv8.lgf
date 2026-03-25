@@ -39,4 +39,5 @@ dc6a1f09-d623-4498-9cf5-6321339b33e7
 {5,27e683d5-3c05-4538-a967-0ea37c542dac,"РегистрСведений.ЦеныНоменклатуры",9},
 {4,"_$PerformError$_",16},
 {4,"_$Session$_.ExternalDataProcessorConnectError",17},
-{4,"_$Session$_.ExternalDataProcessorConnect",18}
+{4,"_$Session$_.ExternalDataProcessorConnect",18},
+{4,"_$Transaction$_.Rollback",19}
