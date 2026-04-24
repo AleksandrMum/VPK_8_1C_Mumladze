@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.3/config/merge/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" platformVersion="8.3.11">
+	<MainConfiguration>
+		<Name>Деньги8УчебнаяВерсия</Name>
+		<Version>2.0.19.2</Version>
+		<Vendor>Фирма "1С"</Vendor>
+	</MainConfiguration>
+	<SecondConfiguration>
+		<Name>Деньги8УчебнаяВерсия</Name>
+		<Version>2.0.19.2</Version>
+		<Vendor>Фирма "1С"</Vendor>
+	</SecondConfiguration>
+	<Parameters>
+		<ConfigurationsRelation>ConfigurationsNotRelated</ConfigurationsRelation>
+		<AllowMainConfigurationObjectDeletion>false</AllowMainConfigurationObjectDeletion>
+		<CopyObjectsMode>false</CopyObjectsMode>
+	</Parameters>
+	<Objects>
+		<Object fullName="Catalog.Имущество.Form.ФормаЭлемента">
+			<Properties>
+				<Property name="Form">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+					<FormModule>
+						<MergeRule>GetFromSecondConfiguration</MergeRule>
+						<Module>
+							<Methods>
+								<Method name="ПолучитьТекущийОстаток" nameInSecondConfiguration="ПолучитьТекущийОстаток">
+									<MergeRule>GetFromSecondConfiguration</MergeRule>
+								</Method>
+								<Method name="ИзменитьОстаток" nameInSecondConfiguration="ИзменитьОстаток">
+									<MergeRule>GetFromSecondConfiguration</MergeRule>
+								</Method>
+								<Method name="КомментарийНачалоВыбора" nameInSecondConfiguration="КомментарийНачалоВыбора">
+									<MergeRule>GetFromSecondConfiguration</MergeRule>
+								</Method>
+								<Method name="ОбновитьОстаток" nameInSecondConfiguration="ОбновитьОстаток">
+									<MergeRule>GetFromSecondConfiguration</MergeRule>
+								</Method>
+								<Method name="ОбработкаОповещения" nameInSecondConfiguration="ОбработкаОповещения">
+									<MergeRule>GetFromSecondConfiguration</MergeRule>
+								</Method>
+								<Method name="ПодготовитьФормуНаСервере" nameInSecondConfiguration="ПодготовитьФормуНаСервере">
+									<MergeRule>GetFromSecondConfiguration</MergeRule>
+								</Method>
+								<Method name="ПослеЗаписи" nameInSecondConfiguration="ПослеЗаписи">
+									<MergeRule>GetFromSecondConfiguration</MergeRule>
+								</Method>
+								<Method name="ПослеЗаписиНаСервере" nameInSecondConfiguration="ПослеЗаписиНаСервере">
+									<MergeRule>GetFromSecondConfiguration</MergeRule>
+								</Method>
+								<Method name="ПриИзмененииОстаткаСервер" nameInSecondConfiguration="ПриИзмененииОстаткаСервер">
+									<MergeRule>GetFromSecondConfiguration</MergeRule>
+								</Method>
+								<Method name="ПриСозданииНаСервере" nameInSecondConfiguration="ПриСозданииНаСервере">
+									<MergeRule>GetFromSecondConfiguration</MergeRule>
+									<Patch>@@ -6,6 +6,10 @@
+ 
+ 	Если Параметры.Ключ.Пустая() Тогда
+ 		ПодготовитьФормуНаСервере();
+-	КонецЕсли; 
++	КонецЕсли;      
++	
++	НовыйЭлемент = Элементы.Добавить("ВидИмущества", Тип("ПолеФормы"), Элементы.ГруппаШапка);
++	НовыйЭлемент.Вид = ВидПоляФормы.ПолеВвода;
++	НовыйЭлемент.ПутьКДанным = "Объект.ЮФУ_ВидИмущества";
+ 	
+ КонецПроцедуры
+</Patch>
+								</Method>
+								<Method name="ПриЧтенииНаСервере" nameInSecondConfiguration="ПриЧтенииНаСервере">
+									<MergeRule>GetFromSecondConfiguration</MergeRule>
+								</Method>
+								<Method name="УправлениеФормой" nameInSecondConfiguration="УправлениеФормой">
+									<MergeRule>GetFromSecondConfiguration</MergeRule>
+								</Method>
+							</Methods>
+						</Module>
+					</FormModule>
+				</Property>
+			</Properties>
+		</Object>
+	</Objects>
+</Settings>

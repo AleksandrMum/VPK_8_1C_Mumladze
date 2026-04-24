@@ -19,4 +19,9 @@
 {4,"_$Job$_.Start",8},
 {4,"_$Job$_.Finish",9},
 {4,"_$Data$_.Update",10},
-{5,0d8c215d-1210-47a2-897d-a3257b9f849a,"Константа.ПараметрыРезервногоКопирования",1}
+{5,0d8c215d-1210-47a2-897d-a3257b9f849a,"Константа.ПараметрыРезервногоКопирования",1},
+{4,"_$InfoBase$_.ConfigUpdate",11},
+{4,"_$InfoBase$_.DBConfigUpdateStart",12},
+{4,"_$InfoBase$_.ExclusiveModeChange",13},
+{4,"_$InfoBase$_.DBConfigUpdate",14},
+{5,eba36afb-d169-4765-b768-8e1246829c46,"Справочник.Имущество",2}
