@@ -24,4 +24,9 @@
 {5,7ea75414-3919-438e-af0a-9a18e0043381,"Константа.ПределПланирования",4},
 {4,"_$InfoBase$_.DumpStart",10},
 {4,"_$InfoBase$_.DumpFinish",11},
-{4,"_$InfoBase$_.ExclusiveModeChange",12}
+{4,"_$InfoBase$_.ExclusiveModeChange",12},
+{4,"_$InfoBase$_.ConfigUpdate",13},
+{4,"_$InfoBase$_.DBConfigUpdateStart",14},
+{4,"_$InfoBase$_.DBConfigUpdate",15},
+{4,"_$PerformError$_",16},
+{5,eba36afb-d169-4765-b768-8e1246829c46,"Справочник.Имущество",5}
