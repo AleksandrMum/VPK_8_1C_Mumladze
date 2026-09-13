@@ -34,4 +34,6 @@ d1a88be0-3804-4bd4-9dba-1ac38c876764
 {5,5187296b-b779-4983-826a-3ba57f87f1db,"РегистрСведений.ЗначениеХарактеристик",6},
 {4,"_$Data$_.Delete",15},
 {4,"_$Data$_.Unpost",16},
-{5,89711ca0-c28e-4c7a-a635-17ae110e3eb0,"РегистрНакопления.ТоварыНаСкладах",7}
+{5,89711ca0-c28e-4c7a-a635-17ae110e3eb0,"РегистрНакопления.ТоварыНаСкладах",7},
+{4,"_$Session$_.ExternalDataProcessorConnectError",17},
+{4,"_$Session$_.ExternalDataProcessorConnect",18}
